@@ -1,0 +1,36 @@
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe.config
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csprojResolveAssemblyReference.cache
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMassEnter.resources
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Insert.resources
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Properties.Resources.resources
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csproj.GenerateResource.Cache
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\bin\Debug\CodeMaster.pdb
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\bin\Debug\System.Data.SQLite.dll
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.exe
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.pdb
+c:\users\yang\documents\visual studio 2012\Projects\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMass.resources
+D:\MyTools\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe.config
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.exe
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.pdb
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csprojResolveAssemblyReference.cache
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMass.resources
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMassEnter.resources
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Insert.resources
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Properties.Resources.resources
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csproj.GenerateResource.Cache
+D:\MyTools\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe
+D:\MyTools\CodeMaster\CodeMaster\bin\Debug\CodeMaster.pdb
+D:\MyTools\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodePage.resources
+D:\MyToolCude\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe.config
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.exe
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.pdb
+D:\MyToolCude\CodeMaster\CodeMaster\bin\Debug\CodeMaster.exe
+D:\MyToolCude\CodeMaster\CodeMaster\bin\Debug\CodeMaster.pdb
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csprojResolveAssemblyReference.cache
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMass.resources
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodeMassEntry.resources
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.CodePage.resources
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Insert.resources
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.Properties.Resources.resources
+D:\MyToolCude\CodeMaster\CodeMaster\obj\Debug\CodeMaster.csproj.GenerateResource.Cache
