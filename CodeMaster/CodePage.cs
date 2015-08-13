@@ -164,5 +164,14 @@ namespace CodeMaster
             return v;
         }
 
+        private void CodePage_Resize(object sender, EventArgs e)
+        {
+            this.CodeName.Size = new Size(this.Size.Width - 17, this.CodeName.Size.Height);
+            this.SourceCode.Size = new Size(this.Size.Width - 16, this.Size.Height-137);
+            this.Comments.Size = new Size(this.Size.Width - 17, this.Comments.Size.Height);
+            this.button1.Location = new Point(this.Size.Width - 57, this.button1.Location.Y);
+            this.button2.Location = new Point(this.Size.Width - 57, this.button2.Location.Y);
+        }
+
     }
 }

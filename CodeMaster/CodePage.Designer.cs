@@ -118,6 +118,7 @@
             this.Controls.Add(this.SourceCode);
             this.Name = "CodePage";
             this.Text = "CodePage";
+            this.Resize += new System.EventHandler(this.CodePage_Resize);
             this.ResumeLayout(false);
 
         }

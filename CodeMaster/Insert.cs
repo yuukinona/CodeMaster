@@ -159,10 +159,12 @@ namespace CodeMaster
             }
             else
             {
-                rt.SelectAll();
-                rt.SelectionColor = Color.Black;
-                rt.SelectionCharOffset = -14;
-                rt.Select(rt.Text.Length, rt.Text.Length);
+                rt.Font = new Font("UTF-8", rt.Font.Size);
+                rt.ForeColor = Color.Black;
+                //rt.SelectAll();
+                //rt.SelectionCharOffset = -14;
+                //rt.Select(rt.Text.Length, rt.Text.Length);
+                //rt.Select(index, index);
             }
             return;
         }

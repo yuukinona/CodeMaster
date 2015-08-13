@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace CodeMaster
 {
     public partial class CodeMass : Form
@@ -28,12 +27,16 @@ namespace CodeMaster
             this.dataGridView1.DataMember = "T_CLASS";
             //this.dataGridView1.bi
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment=DataGridViewContentAlignment.MiddleCenter;
+            
+            string [] HoldCenter=new string[]{"Language","AddTime","UpdateTime"};
+
             foreach (DataGridViewColumn item in this.dataGridView1.Columns)
             {
-                item.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                if(HoldCenter.Contains(item.Name)) item.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
-            for (int i = 0; i < 6;i++ ) dataGridView1.Columns[i].CellTemplate.Style.WrapMode = DataGridViewTriState.True;
+            for (int i = 0; i < dataGridView1.Columns.Count;i++ ) dataGridView1.Columns[i].CellTemplate.Style.WrapMode = DataGridViewTriState.True;
             Font font = new Font("UTF-8", 15);
+            //Font font = new Font("Consolas", 15);
             dataGridView1.Font = font;
 
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -58,7 +61,6 @@ namespace CodeMaster
             this.richTextBox2.SelectionAlignment = HorizontalAlignment.Right;
             this.richTextBox2.SelectAll();
             this.richTextBox2.SelectionCharOffset = -6;
-
         }
 
         
@@ -86,6 +88,7 @@ namespace CodeMaster
                                            dataGridView1.Rows[index].Cells[3].Value.ToString(),
                                            dataGridView1.Rows[index].Cells[2].Value.ToString()
                                           );
+                Clipboard.SetDataObject(code);
                 cp.Show();
                 
             }
@@ -123,6 +126,18 @@ namespace CodeMaster
             Delay.Stop();
             return;
 
+        }
+
+        private void CodeMass_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {/*
+            if (this.richTextBox1.Text == " ") return;
+            if (this.richTextBox1.Text == "*") this.richTextBox1.Text = " ";
+            else ;
+          */
         }
     }
 }
